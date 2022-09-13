@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juego del Ahorcado para DEVS | Alura</title>
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="img/logo.svg" alt="logo Alura" />
+    </header>
+    <div class="hanged">
+      <img id="man" alt="ahorcado" />
+    </div>
+    <div class="guessed"></div>
+    <div class="wrong"></div>
+    <div class="buttons">
+      <input type="button" class="btn-blue" value="Nuevo Juego" onclick="newGame()" />
+      <input type="button" id="desistir" value="Desistir" />
+    </div>
+    <footer>
+      <p>Copyright © 2022 | Credits for Alura by Maruinyork</p>
+    </footer>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>   
+    <script src="app.js"></script>
+  </body>
+</html>
